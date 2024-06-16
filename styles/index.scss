@@ -1,0 +1,7 @@
+@import './variables';  //importa as conf de _variables.scss
+@import './header';     //importa as conf de _header.scss
+
+.contato {
+    @include flexCenter(row);   //importa as conf do @mixin flexCenter()
+    @extend header;     //importa as conf do _header.scss
+}

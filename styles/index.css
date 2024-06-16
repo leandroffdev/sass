@@ -1,0 +1,28 @@
+header, .contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+header button, .contato button {
+  background-color: rgb(255, 0, 34);
+  color: #fff;
+}
+header button:hover, .contato button:hover {
+  background-color: #4bcc00;
+}
+header p, .contato p {
+  color: #000;
+}
+header h1, .contato h1 {
+  color: purple;
+}
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=index.css.map */

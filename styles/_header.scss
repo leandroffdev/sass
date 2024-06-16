@@ -1,0 +1,24 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+header {
+    @include flexCenter(column);
+    button {
+        background-color: $secondary;
+        color: #fff;
+        &:hover {   // se refere a ultima propriedade mensionada "Button"
+            background-color: darken($primary, 10%);
+        }
+    }
+    p {
+        color: #000;
+    }
+    h1 {
+        color: purple;
+    }
+}
